@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,16 +13,18 @@
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:background="@color/goldest"
-        android:textSize="30dp"
-        android:padding="30dp"/>
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/padding_size"/>
 
 <!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
     <Button
+        android:id="@+id/btn_surprise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="@dimen/button_margin_size"
         android:text="@string/surprise"
-        android:id="@+id/btn_surprise"/>
+        android:textColor="@color/black"
+        android:textSize="@dimen/button_text_size" />
 </RelativeLayout>
