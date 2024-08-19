@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá, mundo!"
+        android:text="@string/hello_world"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:background="#D4AF37"
@@ -24,6 +24,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
-        android:text="Surpresa!"
+        android:text="@string/surprise"
         android:id="@+id/btn_surprise"/>
 </RelativeLayout>
