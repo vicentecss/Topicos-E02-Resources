@@ -2,5 +2,5 @@
     <string name="app_name">Olá, Mundo</string>
     <string name="hello_world">Olá, mundo!</string>
     <string name="surprise">Surpresa!</string>
-    <string name="toast">Bem vindo, mestre</string>
+    <string name="toast">Bem vindo, mestre!</string>
 </resources>
